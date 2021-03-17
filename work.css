@@ -24,7 +24,6 @@ for change posoition of all element we use :
 */
 .h4{
     display: inline-flex;
-    position: fixed;
 
     width: 150px;
     background-color: darkgoldenrod;
