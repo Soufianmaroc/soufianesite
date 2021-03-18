@@ -22,24 +22,55 @@ for change posoition of all element we use :
 
 
 */
+#important{
+    visibility: unset;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    color: brown;
+    border-color: khaki;
+    background-color: rgb(128, 230, 224);
+    position: fixed;
+}
 .h4{
+    color: #1bc3c9;
     display: inline-flex;
 
-    width: 150px;
+    width: 20%;
     background-color: darkgoldenrod;
 background-attachment: fixed;
 
+}
+h2{
+    color: #1bc3c9;
+}
+.h3{
+    color: #1bc3c9;
+}
 }
 body{
     margin: 0;
     text-align: center;
     position: relative;
     font-family: 'Courier New', Courier, monospace;
+    background-color: 	#778899;
 }
 .profil{
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
     display: inline-block;
+    float: left;
+    margin: 20px;
+}
+.profile{
+    margin: 100px;
+}
+.profile2{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+float: right;
+    margin: 20px;
 }
 #picture{
     position: relative; 
@@ -141,4 +172,4 @@ bottom: 400px;
 }
 .sss{
     background-color: blueviolet;
-}
+} 
